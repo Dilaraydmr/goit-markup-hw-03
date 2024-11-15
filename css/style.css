@@ -223,10 +223,10 @@ body{
     display: inline-block;
     margin-bottom: 16px;
   }
- .footer-a {
-    display: inline-block; 
-    margin-bottom: 16px;
-}
+ .footer-a{
+  display: inline-block;
+  margin-bottom: 16px;
+ }
 
   .footer-text {
     color: #F4F4FD;
