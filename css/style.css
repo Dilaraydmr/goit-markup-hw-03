@@ -223,7 +223,7 @@ body{
     display: inline-block;
     margin-bottom: 16px;
   }
-  a {
+ .footer-a {
     display: inline-block; 
     margin-bottom: 16px;
 }
