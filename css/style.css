@@ -195,7 +195,9 @@ body{
     text-decoration: none;
     list-style-type: none;
   }
+ 
   .section-four-title {
+    padding: 120px 0;
     color: #2E2F42;
     font-size: 36px;
     line-height: 1.11;
