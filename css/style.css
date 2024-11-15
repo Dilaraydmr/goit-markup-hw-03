@@ -223,6 +223,11 @@ body{
     display: inline-block;
     margin-bottom: 16px;
   }
+  a {
+    display: inline-block; 
+    margin-bottom: 16px;
+}
+
   .footer-text {
     color: #F4F4FD;
     line-height: 1.5;
