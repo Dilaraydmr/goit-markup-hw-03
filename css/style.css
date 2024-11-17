@@ -41,6 +41,11 @@ body{
 }
 .link-li{
   list-style-type:none;
+
+}
+.link-li a{
+  margin-right:76px;
+
 }
 .link-adres-li{
   list-style-type:none;
@@ -74,7 +79,7 @@ body{
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-right:76px;
+   
     padding: 24px 0;
   
 }
