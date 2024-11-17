@@ -21,6 +21,7 @@ body{
   width: 1158px;
   padding: 0 15px;
   display: flex;
+  margin: 0 auto;
   
   
 }
@@ -36,6 +37,13 @@ body{
 .nav-bar-about{
   display: flex;
   gap:40px;
+
+}
+.link-li{
+  list-style-type:none;
+}
+.link-adres-li{
+  list-style-type:none;
 
 }
 .logo{
