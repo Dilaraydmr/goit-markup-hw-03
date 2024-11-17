@@ -60,6 +60,7 @@ body{
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration:none;
+    margin-right: 76px;
     
 }
 .logo-span {
@@ -80,7 +81,6 @@ body{
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-right:76px;
     padding: 24px 0;
   
 }
