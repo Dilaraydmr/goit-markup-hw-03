@@ -193,7 +193,7 @@ body{
     width: calc((100%-72px)/4);
    flex-basis: calc((100%-72px)/4);
  }
-  #section-two-title {
+  .section-two-title {
     color: #2E2F42;
     font-family: inherit;
     font-weight: 700;
@@ -276,6 +276,9 @@ body{
     letter-spacing: 0.02em;
     text-decoration: none;
     list-style-type: none;
+  }
+  section-four-container{
+    padding: 120px 0;
   }
  
   .section-four-title {
