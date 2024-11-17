@@ -172,6 +172,9 @@ body{
   .section-one-button:focus {
     background-color: #404BBF;
   }
+  .section-two{
+    padding: 120px 0;
+  }
   #section-two-title {
     color: #2E2F42;
     font-family: inherit;
@@ -183,7 +186,7 @@ body{
     text-decoration: none;
     list-style-type: none;
     text-align: center;
-    padding: 120px 0;
+    
   }
   .section-two-mini-title {
     color: #2E2F42;
@@ -195,6 +198,7 @@ body{
     letter-spacing: 0.02em;
     text-decoration: none;
     list-style-type: none;
+    margin-bottom: 8px;
   }
   .section-two-text {
     color: #434455;
