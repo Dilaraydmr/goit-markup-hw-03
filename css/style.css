@@ -12,13 +12,31 @@ body{
     color: #434455;
     background-color:#FFFFFF;
 }
-header-about{
+.header-about{
   border-bottom: 1px solid #e7e9fc;
+  
 }
-.header-container{
+.header-about
+.container{
   width: 1158px;
   padding: 0 15px;
+  display: flex;
   
+  
+}
+.header-nav{
+  align-items: center;
+  display: flex;
+
+}
+.nav-bar{
+  display: flex;
+  gap:40px;
+}
+.nav-bar-about{
+  display: flex;
+  gap:40px;
+
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -48,7 +66,8 @@ header-about{
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
+    margin-right:76px;
+    padding: 24px 0;
   
 }
 
