@@ -44,7 +44,7 @@ body{
 
 }
 .link-li a{
-  margin-right:76px;
+ 
 
 }
 .link-adres-li{
@@ -60,6 +60,7 @@ body{
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration:none;
+    
 }
 .logo-span {
     font-family: "Raleway", sans-serif;
