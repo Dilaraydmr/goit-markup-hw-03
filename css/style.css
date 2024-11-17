@@ -154,7 +154,6 @@ body{
     text-decoration: none;
     list-style-type: none;
     text-align: center;
-    cursor: pointer;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -172,19 +171,7 @@ body{
   .section-two{
     padding: 120px 0;
   }
-  .section-two-title
-  .visually-hidden{
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+  
   .section-two-ul{
     display: flex;
     gap: 24px;
@@ -193,19 +180,20 @@ body{
     width: calc((100%-72px)/4);
    flex-basis: calc((100%-72px)/4);
  }
-  .section-two-title {
-    color: #2E2F42;
-    font-family: inherit;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 2%;
-    text-decoration: none;
-    list-style-type: none;
-    text-align: center;
+ .section-two-title {
+  color: #2E2F42;
+  font-family: inherit;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2%;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+}
     
-  }
+  
   .section-two-mini-title {
     color: #2E2F42;
     font-family: inherit;
