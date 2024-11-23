@@ -14,12 +14,17 @@ body {
 }
 .header-about {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+   0px 1px 1px rgba(46, 47, 66, 0.16), 
+   0px 1px 6px rgba(46, 47, 66, 0.08);
+   display: flex;
 }
 .header-about .container {
   width: 1158px;
   padding: 0 15px;
   display: flex;
   margin: 0 auto;
+  
 }
 .header-nav {
   align-items: center;
@@ -51,6 +56,8 @@ body {
   text-decoration: none;
   margin-right: 76px;
 }
+
+  
 .logo-span {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -70,6 +77,21 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  position: relative;
+  color: #404bbf;
+}
+.link::after{
+content:'' ;
+width: 100%;
+position: absolute;
+left: 0;
+bottom: -1px;
+height: 4px;
+background-color: #404bbf;
+border-radius: 2px;
+transition-property:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
 }
 
 .link:hover {
@@ -99,6 +121,7 @@ body {
   list-style-type: none;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-adres:hover {
@@ -111,11 +134,27 @@ body {
 .address-bar {
   font-style: normal;
   margin-left: 200px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-one {
   background-color: #2e2f42;
   padding: 188px 0;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
+    url(../images/peopleoffice.jpg);
+
+
+    
+    background-repeat: no-repeat ;
+    background-position: center center ;
+    text-align: center;
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  max-width: 1440px;
+  background-color: #ffffff;
+  background-size: cover;
 }
 .section-one-title {
   color: #ffffff;
@@ -151,6 +190,7 @@ body {
   cursor: pointer;
   display: block;
   margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-one-button:hover {
   background-color: #404bbf;
@@ -170,6 +210,19 @@ body {
 .section-two-li {
   width: calc((100%-72px) / 4);
   flex-basis: calc((100%-72px) / 4);
+}
+
+
+
+.icon-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 }
 /*
  .section-two-title {
@@ -316,6 +369,12 @@ white-space: nowrap;
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  
+}
+.footer-container{
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
 }
 .logo-down-right {
   color: #f4f4fd;
